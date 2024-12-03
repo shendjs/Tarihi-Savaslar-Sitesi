@@ -23,8 +23,4 @@ Tarihteki önemli ve büyük savaşları ele alan bir web sitesi. Bu site, farkl
 - Selim Can Erdoğan
 - Emir Usta
 
-## Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
-
 ---
