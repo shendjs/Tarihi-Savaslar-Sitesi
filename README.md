@@ -1,6 +1,6 @@
 ---
 
-# Tarihi-Savaşlar-Sitesi
+# Tarihi Savaşlar Sitesi
 
 Tarihteki önemli ve büyük savaşları ele alan bir web sitesi. Bu site, farklı savaşların tarihsel bağlamını, sebeplerini, sonuçlarını ve etkilerini detaylı bir şekilde inceler. Amacımız, ziyaretçilere tarihsel savaşlar hakkında kapsamlı ve eğitici bilgiler sunmaktır.
 
