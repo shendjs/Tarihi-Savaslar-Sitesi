@@ -1,54 +1,53 @@
-# CodeIgniter 4 Framework
+Here’s a professional README template for your project based on your requirements:
 
-## What is CodeIgniter?
+---
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+# Tarihi Savaşlar Temalı Web Sitesi
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Proje Tanımı
+Bu proje, CodeIgniter altyapısıyla geliştirilmiş ve tarihi savaşlar temalı bir web sitesini kapsamaktadır. Proje, yönetim paneli, kullanıcı girişi, güvenli şifreleme, veritabanı işlemleri, form işlemleri, CRUD işlemleri ve çeşitli güvenlik önlemleri ile donatılmıştır.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Özellikler
+- **Yönetim Paneli:** Kullanıcıların içerik ekleyip düzenleyebileceği, silme işlemlerini yapabileceği bir yönetim paneli.
+- **Veritabanı Kullanımı:** Güvenli kullanıcı şifreleri, içerik veritabanında saklanır.
+- **CSRF Koruması ve Form Validasyonu:** Veri güvenliği için CSRF koruması açık ve form doğrulama kuralları kullanılmıştır.
+- **Kullanıcı Girişi:** Yönetim paneline sadece giriş yapmış kullanıcılar erişebilir.
+- **Gelişmiş Fonksiyonlar:** `url_title`, `pascalize`, `base_url`, `anchor`, `word_limiter` gibi fonksiyonlar projede kullanılmaktadır.
+- **CRUD İşlemleri:** Veri ekleme, silme ve düzenleme işlemleri, veritabanına güvenli şekilde kaydedilmektedir.
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## Gereksinimler
+- PHP 7.4 ve üzeri
+- CodeIgniter 4.x
+- MySQL/MariaDB veritabanı
 
-## Important Change with index.php
+## Kurulum
+1. **Veritabanı Yapılandırması:**
+   - `application/config/database.php` dosyasını açın.
+   - Veritabanı ayarlarını doğru şekilde yapılandırın.
+2. **Geliştirme Modu ve Üretim Modu Ayarları:**
+   - `index.php` dosyasındaki ortam türünü (development/production) ayarlayın.
+3. **Kullanıcı Girişi:**
+   - Admin paneline giriş yapmak için kullanıcı adı: `yonetici`, şifre: `123` kullanılacaktır.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## Fonksiyonlar
+- **URL Başlıkları:** `url_title()` fonksiyonu, URL dostu başlıklar oluşturur.
+- **Pascal Case:** `pascalize()` fonksiyonu, metinleri PascalCase formatına dönüştürür.
+- **Base URL:** `base_url()` fonksiyonu, proje içindeki tüm bağlantıların kök URL'sini döner.
+- **Anchor Bağlantılar:** `anchor()` fonksiyonu, HTML bağlantıları oluşturur.
+- **Kelime Sınırlandırması:** `word_limiter()` fonksiyonu, metinleri belirtilen kelime sayısına göre sınırlar.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## Güvenlik
+- **Şifreleme:** Kullanıcı şifreleri, PHP'nin `password_hash()` fonksiyonu ile güvenli bir şekilde saklanır.
+- **CSRF Koruması:** Form işlemleri, CSRF korumasıyla güvence altına alınmıştır.
+- **Session Yönetimi:** Kullanıcı girişi yapılmadan yönetim paneline erişim sağlanamaz.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## Katkı Sağlayanlar
+- Selim Can Erdoğan - Proje geliştiricisi
+- Emir Usta (Dümenden) - Proje geliştiricisi
 
-## Repository Management
+## Lisans
+Bu proje, [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+---
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+This README provides a comprehensive overview of your project while remaining professional and concise. Adjust the details as necessary based on any additional information you’d like to include.
