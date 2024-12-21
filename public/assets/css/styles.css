@@ -1,0 +1,50 @@
+body {
+    background-color: #f0f0f0; /* Gri tonunda arka plan */
+    font-family: Arial, sans-serif; /* Yazı tipi ayarı */
+    color: #333; /* Metin rengi ayarı */
+    padding: 20px; /* İçerik kenar boşluğu */
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Beyaz container arka planı */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Hafif gölgeli kenarlar */
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #333; /* Başlık rengi */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #666; /* Menü bağlantı rengi */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0; /* Aynı arka plan rengi tekrar */
+    margin-top: 20px;
+}
