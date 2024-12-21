@@ -41,7 +41,7 @@ Bu proje, CodeIgniter altyapısıyla geliştirilmiş ve tarihi savaşlar temalı
 
 ## Katkı Sağlayanlar
 - Selim Can Erdoğan - Proje geliştiricisi
-- Emir Usta (Dümenden) - Proje geliştiricisi
+- Emir Usta  - Proje geliştiricisi
 
 ## Lisans
 Bu proje, [MIT Lisansı](LICENSE) ile lisanslanmıştır.
