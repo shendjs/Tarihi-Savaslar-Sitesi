@@ -1,5 +1,3 @@
-Here’s a professional README template for your project based on your requirements:
-
 ---
 
 # Tarihi Savaşlar Temalı Web Sitesi
