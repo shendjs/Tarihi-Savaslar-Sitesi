@@ -47,5 +47,3 @@ Bu proje, CodeIgniter altyapısıyla geliştirilmiş ve tarihi savaşlar temalı
 Bu proje, [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 
 ---
-
-This README provides a comprehensive overview of your project while remaining professional and concise. Adjust the details as necessary based on any additional information you’d like to include.
