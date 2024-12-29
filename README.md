@@ -5,6 +5,15 @@
 ## Proje Tanımı
 Bu proje, CodeIgniter altyapısıyla geliştirilmiş ve tarihi savaşlar temalı bir web sitesini kapsamaktadır. Proje, yönetim paneli, kullanıcı girişi, güvenli şifreleme, veritabanı işlemleri, form işlemleri, CRUD işlemleri ve çeşitli güvenlik önlemleri ile donatılmıştır.
 
+Bu proje, tarihi savaşlar temalı bir web sitesi için MongoDB veritabanı entegrasyonu içermektedir. **MongoDBConnector** ve **MongoDBHelper** sınıfları, MongoDB ile bağlantı kurarak veritabanına ve koleksiyonlara kolay erişim sağlar. 
+
+## Özellikler
+- **MongoDB Bağlantısı:** MongoDB'ye bağlantı sağlanarak veri işlemleri gerçekleştirilebilir.
+- **Veritabanı Erişimi:** `tarihi_savaslar` veritabanı kullanılarak savaş verileri saklanır.
+- **Koleksiyon Yönetimi:** Koleksiyonlar arasında veri alışverişi yapılabilir.
+- **Cloud üzerinden değil local sunucuda veriler görülebilir.**
+
+
 ## Özellikler
 - **Yönetim Paneli:** Kullanıcıların içerik ekleyip düzenleyebileceği, silme işlemlerini yapabileceği bir yönetim paneli.
 - **Veritabanı Kullanımı:** Güvenli kullanıcı şifreleri, içerik veritabanında saklanır.
