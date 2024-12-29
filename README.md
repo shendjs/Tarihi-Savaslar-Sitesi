@@ -12,9 +12,6 @@ Bu proje, tarihi savaşlar temalı bir web sitesi için MongoDB veritabanı ente
 - **Veritabanı Erişimi:** `tarihi_savaslar` veritabanı kullanılarak savaş verileri saklanır.
 - **Koleksiyon Yönetimi:** Koleksiyonlar arasında veri alışverişi yapılabilir.
 - **Cloud üzerinden değil local sunucuda veriler görülebilir.**
-
-
-## Özellikler
 - **Yönetim Paneli:** Kullanıcıların içerik ekleyip düzenleyebileceği, silme işlemlerini yapabileceği bir yönetim paneli.
 - **Veritabanı Kullanımı:** Güvenli kullanıcı şifreleri, içerik veritabanında saklanır.
 - **CSRF Koruması ve Form Validasyonu:** Veri güvenliği için CSRF koruması açık ve form doğrulama kuralları kullanılmıştır.
